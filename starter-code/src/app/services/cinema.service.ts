@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import movies from "../../assets/sample-movies"
 
 @Injectable()
-export class MoviesService {
+export class CinemaService {
     Movies: Array<Object>= movies
 
     // newMessage: Object = {}
